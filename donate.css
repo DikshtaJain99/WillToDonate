@@ -1,0 +1,53 @@
+body{
+	background: url("bg_donate.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+div {
+	text-align: center;
+
+}
+
+table {
+	width: 50%;
+	margin: 4vw auto;
+	border: 0.1vw solid orange;
+	border-radius: 1vw;
+
+}
+
+th {
+	border: 2px solid orange;
+	border-collapse: collapse;
+	padding: 2vw;
+	border-radius: 1vw;
+	color: white;
+}
+
+
+
+input[type=number] {
+	width: 3vw;
+	background: none;
+	border: 2px solid black;
+	font-weight: bold;
+	font-family: Areial;
+	color: white;
+	font-color: white;
+}
+
+input[type=textbox] {
+	width: 10vw;
+	height: 5vw;
+	border: 2px solid black;
+	text-align: left;
+	padding-left: 0.5vw;
+	background: none;
+	font-weight: bold;
+	font-family: Areial;
+	color: white;
+	font-color: white;
+}
+

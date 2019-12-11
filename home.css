@@ -1,0 +1,152 @@
+
+body {
+background: white;
+background-image: url("bg2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: "Lato", sans-serif;
+height: 50vw;
+position: relative;
+
+}
+.topnav {
+  height: 5vw;
+  display: inline-flex;
+  flex-direction: flex-start;
+  flex: 3;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-size:22px;
+  float: left;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  margin: auto;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  opacity: 0.7;
+  border: 0px 1px 1px 0px solid white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 0px 1px 1px 0px solid white;
+}
+
+#container1 {
+	height: 70%;
+	padding-top: 9vw;
+	padding-bottom: 9vw;
+	margin-left: 25%;
+}
+
+.login_div {
+	display: inline-flex;
+	flex: 1;
+	flex-direction: flex-end;
+	height: 5vw;
+	margin-top: 0;
+	float: right;
+}
+
+.login_div a {
+	font-size: 30px;
+	float: right;
+	padding-right: 5vw;
+	color: black;
+  	font-weight: bolder;
+  	text-align: center;
+  	padding: 16px 16px;
+  	text-decoration: none;
+}
+
+#container1 button:hover {
+	cursor: pointer;
+}
+
+#donate {
+	background-color: orange;
+	border: transparent;
+	border-radius: 3vw;
+	color: white;
+	width: 10vw;
+	height: 4vw;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+.login_btn {
+	float: right;
+}
+
+.login_btn a{
+	font-size:25px;
+	font-family: Arial;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#bgimg{
+	display:flex;
+	justify-content: center;
+	opacity:0.7;
+}
+
+
+#logo {
+	width: 4vw;
+	height: 4vw;
+	margin: auto;
+}
+
+div.left {
+	margin-left: 36vw;
+}
+
+
+p{
+	font-size: 20px;
+	font-family: Arial;
+	padding: 10px 300px;
+	margin: auto;
+}
+
+h1, h2 ,h3 {
+	font-size:30px;
+	font-family: Arial;
+	color: black;
+	text-align: center;
+}
+button{
+	font-size: 25px;
+	font-family:Arial;
+}
+	
+hr {
+	width: 20%;
+	border: 3px solid orange;
+}
+
+
+button.Volunteer{
+	height: 5vw;
+	width: 10vw;
+	background-color: orange;
+	color: black;
+	border: transparent;
+	border-radius: 3vw;
+	margin-left: 4vw;
+	position: absolute;
+	top: 250%;
+}
+
